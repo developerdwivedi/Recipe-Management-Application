@@ -1,0 +1,33 @@
+.recipe-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.recipe-item.favorite {
+    border-color: #ff6347;
+    background-color: #fff7f7;
+}
+
+.recipe-item h2 {
+    margin-top: 0;
+}
+
+.recipe-item button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.recipe-item button:hover {
+    background-color: #0056b3;
+}
